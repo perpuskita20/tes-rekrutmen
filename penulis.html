@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Data Penulis</title>
+</head>
+<body>
+	<header>
+		<h1>Input Data Penulis</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="beranda.html">Beranda</a></li>
+			<li><a href="penulis.html">Input Penulis</a></li>
+			<li><a href="daftarpenulis.html">Daftar Penulis</a></li>
+		</ul>
+	</nav>
+	
+	<form method="post" action="proses.php">
+		<label for="kode">Kode:</label><br>
+		<input type="text" id="kode" name="kode" required><br>
+
+		<label for="nama">Nama:</label><br>
+		<input type="text" id="nama" name="nama" required><br>
+
+		<label for="alamat">Alamat:</label><br>
+		<textarea id="alamat" name="alamat" required></textarea><br>
+
+		<label for="tanggal_lahir">Tanggal Lahir:</label><br>
+		<input type="date" id="tanggal_lahir" name="tanggal_lahir" required><br>
+
+		<input type="submit" value="Simpan">
+	</form>
+</body>
+</html>
